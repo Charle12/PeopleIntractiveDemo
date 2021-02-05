@@ -23,7 +23,9 @@ class UserTVC: UITableViewCell {
             nameLabel?.text = userCellVM.name
             phoneAndWebsiteLabel?.text = userCellVM.phoneAndWebsite
             companyLabel?.text = userCellVM.company
-            starBtn.isSelected = userCellVM.isSelectedStar ?? false
+            if starBtn != nil {
+                starBtn.isSelected = userCellVM.isSelectedStar ?? false
+            }
         }
     }
     
