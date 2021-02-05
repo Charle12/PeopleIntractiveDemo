@@ -1,0 +1,6 @@
+framework module Pods_PeopleIntractiveDemo {
+  umbrella header "Pods-PeopleIntractiveDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
